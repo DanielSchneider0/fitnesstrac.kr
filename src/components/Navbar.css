@@ -1,0 +1,47 @@
+#Title {
+  font-size: 3rem;
+  font-family: sans-serif;
+  cursor: pointer;
+  justify-self: start;
+  padding-left: 2rem;
+  color: #ffff;
+  margin-top: 30px;
+}
+
+#Links {
+  float: right;
+  font-size: 2rem;
+  font-family: sans-serif;
+  cursor: pointer;
+  color: #ffff;
+  text-decoration: none;
+  display: inline;
+  padding-right: 30px;
+}
+
+#Header {
+  min-height: 5rem;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 7rem;
+  background: linear-gradient(
+    90deg,
+    rgba(73, 63, 252, 100%),
+    rgb(110, 94, 254)
+  );
+  border-spacing: 0px 5rem;
+}
+
+.routerLink {
+  font-size: 1.7rem;
+  font-family: sans-serif;
+  margin-top: 35px;
+  text-decoration: none;
+}
+
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}

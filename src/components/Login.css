@@ -1,0 +1,42 @@
+.Login {
+  max-width: 500px;
+  font-size: 1.3rem;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 9rem;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  justify-content: center;
+  border: none;
+  background: #f1f1f1;
+  font-size: 1.3rem;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+button {
+  background-color: rgba(73, 63, 252, 100%);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-size: 1.3rem;
+}
+
+button:hover {
+  opacity: 1;
+}

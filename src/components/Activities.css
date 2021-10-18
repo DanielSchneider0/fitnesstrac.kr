@@ -1,0 +1,15 @@
+h1 {
+  font-family: sans-serif;
+}
+h4 {
+  font-family: sans-serif;
+}
+
+#form {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  text-align: center;
+  max-width: 500px;
+}
